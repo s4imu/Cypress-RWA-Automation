@@ -12,7 +12,7 @@ const transactionPage = new TransactionPage();
 const amount = 30;
 const note = "House";
 
-describe("Real-World App (RWA) Login Tests", () => {
+describe("Real-World App (RWA) Transaction Tests", () => {
   beforeEach(() => {
     loginPage
       .acessSigninPage()
